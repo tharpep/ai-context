@@ -1,0 +1,111 @@
+---
+alwaysApply: true
+---
+
+# AI Context Repository Usage Rules
+
+## Repository Purpose
+
+This repository serves as a comprehensive context system for AI-powered IDE assistants (Cursor, Windsurf, Rider). It provides consistent coding standards, architectural patterns, and project-specific guidelines to ensure code quality and consistency across all development work.
+
+## How This Repository Should Be Used
+
+### For AI Agents
+1. **Reference the comprehensive standards** in `comprehensive.mdc` for core behavioral guidelines
+2. **Check language-specific standards** in `languages/` folder for coding conventions
+3. **Apply architectural patterns** from `architecture/` folder for system design
+4. **Use templates** from `templates/` folder for consistency
+5. **Follow project-specific guidelines** in `projects/` folder for active projects
+
+### For Developers
+1. **Review relevant standards** before starting new work
+2. **Update context files** when establishing new patterns
+3. **Reference this repository** in IDE agent configurations
+4. **Maintain consistency** with established patterns
+
+## Repository Structure
+
+```
+ai-context/
+├── .cursor/rules/
+│   ├── comprehensive.mdc         # Core AI agent standards and guidelines
+│   └── ai-context-usage.md       # How to use and update this repository
+├── projects/                     # Active project contexts
+├── languages/                    # Language-specific standards
+├── architecture/                 # Architectural patterns and principles
+├── tools/                        # Development tools and configurations
+└── templates/                    # Code templates and snippets
+```
+
+## Standards Hierarchy
+
+1. **Master Rules** (comprehensive.mdc) - Universal standards
+2. **Language Rules** (languages/) - Language-specific standards
+3. **Architecture Rules** (architecture/) - System design standards
+4. **Project Rules** (projects/) - Project-specific overrides
+5. **Tool Rules** (tools/) - Development tool standards
+
+## Core Principles
+
+### 1. Consistency First
+- All code must follow established patterns and conventions
+- Standards are enforced across all languages and projects
+- AI agents reference these standards for all code generation
+
+### 2. Quality Assurance
+- Minimum 80% test coverage for all business logic
+- Comprehensive linting and static analysis
+- Security-first approach with input validation and secure defaults
+
+### 3. Maintainability
+- Clear documentation and comments
+- Single responsibility principle
+- Modular and reusable code patterns
+
+### 4. Observability
+- Structured logging with correlation IDs
+- Comprehensive error handling
+- Performance monitoring and metrics
+
+## Usage Guidelines
+
+### When Working in This Repository
+- This repository contains the standards and patterns
+- Update standards when establishing new patterns
+- Maintain consistency with established guidelines
+- Reference specific files for detailed standards
+
+### When Working in Other Projects
+- Reference this repository for standards
+- Apply language-specific guidelines
+- Use architectural patterns as appropriate
+- Follow project-specific overrides when documented
+
+## Quality Gates
+
+- All code must pass linting and static analysis
+- Security vulnerabilities must be addressed
+- Performance implications must be considered
+- Documentation must be comprehensive and up-to-date
+- Tests must cover critical business logic
+
+## Maintenance
+
+- Review and update standards quarterly
+- Add new patterns as they emerge
+- Remove deprecated or outdated guidelines
+- Ensure all examples are current and functional
+
+## Integration
+
+This repository integrates with:
+- Cursor IDE agents
+- Windsurf IDE agents
+- Rider IDE agents
+- CI/CD pipelines
+- Code review processes
+- Documentation generation
+
+---
+
+*This repository ensures consistent, high-quality code across all development projects through comprehensive standards and AI-assisted development workflows.*
