@@ -122,3 +122,6 @@ temp/
 # System files
 *.tmp
 *.temp
+
+# User-specific rules (keep private)
+@user_rules.md

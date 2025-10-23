@@ -17,7 +17,8 @@ ai-context/
 ├── architecture/                 # Architectural patterns and principles
 ├── projects/                     # Active project contexts
 ├── tools/                        # Development tools and configurations
-└── templates/                    # Code templates and snippets
+├── templates/                    # Code templates and snippets
+└── mcp/                         # Model Context Protocol configurations
 ```
 
 ## 🚀 Quick Start
@@ -34,7 +35,29 @@ ai-context/
 - **Language Standards**: `languages/` folder
 - **Architecture Patterns**: `architecture/` folder
 - **Project Contexts**: `projects/` folder
+- **MCP Configuration**: `mcp/` folder
+
+## 🔌 Model Context Protocol (MCP) Integration
+
+This repository includes MCP server configurations for enhanced AI assistant capabilities:
+
+### AI-Context MCP Server
+- **Purpose**: Provides access to coding standards, guidelines, and development patterns
+- **Repository**: `tharpep/ai-context`
+- **Capabilities**: Standards enforcement, language conventions, architectural patterns
+
+### GitHub MCP Server
+- **Purpose**: Direct GitHub repository operations and management
+- **Capabilities**: Repository management, issue tracking, pull request operations
+
+### Configuration
+Both MCP servers are configured via `mcp/mcp-template.json` and work together to ensure:
+- Code quality through standards enforcement
+- Seamless GitHub platform integration
+- Consistent development workflows across all projects
+
+See `mcp/README.md` for detailed MCP configuration and usage instructions.
 
 ---
 
-*This repository provides comprehensive coding standards and AI-assisted development workflows.*
+*This repository provides comprehensive coding standards and AI-assisted development workflows with integrated MCP server support.*

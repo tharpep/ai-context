@@ -1,0 +1,21 @@
+{
+    "mcpServers": {
+      "ai-context": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-github"
+        ],
+        "env": {
+          "GITHUB_REPOSITORY": "tharpep/ai-context"
+        }
+      },
+      "github": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-github"
+        ]
+      }
+    }
+  }
